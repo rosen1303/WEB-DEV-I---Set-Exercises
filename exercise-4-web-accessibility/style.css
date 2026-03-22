@@ -1,0 +1,159 @@
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff4fa;
+    color: #222222;
+}
+
+
+/* Skip link for keyboard users */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 14px;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+}
+
+
+/* Header area */
+header {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 20px 10px 20px;
+    position: relative;
+    text-align: center;
+}
+
+
+/* Decorative top divider */
+.divider {
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* Shopping cart link */
+.cart-link {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    display: inline-block;
+}
+
+.cart-link img {
+    width: 36px;
+    height: 36px;
+}
+
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #003366;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #000000;
+    outline: 2px solid #000000;
+    outline-offset: 3px;
+}
+
+
+/* Main page area */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 20px 30px 20px;
+}
+
+
+/* Gallery layout */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+/* Each photo section */
+.photo-card {
+    background-color: #ffffff;
+    border: 2px solid #d9d9d9;
+    padding: 15px;
+}
+
+
+/* Images */
+.photo-card img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+
+/* Caption text */
+.photo-card p {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    line-height: 1.4;
+    background-color: #f5f5dc;
+    color: #003366;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+/* Buttons */
+button {
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: #001f3f;
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+}
+
+
+/* Footer */
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 30px 20px;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: bold;
+}
