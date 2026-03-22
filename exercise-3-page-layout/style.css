@@ -1,0 +1,93 @@
+/* Page background and default font */
+body {
+    margin: 0;
+    background-color: #d9d9d9;
+    font-family: Georgia, serif;
+}
+
+/* Main page width */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Main title */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 55px;
+    font-size: 22px;
+}
+
+/* Intro text area */
+.intro {
+    padding: 0 20px 10px 20px;
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+/* Cow image floated to the right and small gap between the gallery due to alignemnt with the text */
+.cow-image {
+    float: right;
+    width: 430px;
+    height: 430px;
+    object-fit: cover;
+    display: block;
+    margin: 0 0 10px 20px;
+}
+
+/* Gallery layout */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Shared gallery item style */
+.item {
+    display: block;
+    height: 280px;
+    object-fit: cover;
+}
+
+/* Row 1 */
+.video-item {
+    width: 60%;
+}
+
+.leaves-item {
+    width: 40%;
+}
+
+/* Row 2 */
+.camera-item {
+    width: 40%;
+}
+
+.forest-item {
+    width: 60%;
+}
+
+/* Row 3 */
+.landscape-item {
+    width: 60%;
+}
+
+.car-item {
+    width: 40%;
+}
